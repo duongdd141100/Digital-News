@@ -1,0 +1,119 @@
+body {
+    margin: auto;
+}
+h2 {
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    height: 78px;
+    width: 887px;
+    color: white;
+    padding-left: 77px;
+    margin: 0px;
+}
+p {
+    background-image: url(../images/menu.jpg);
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 887px;
+    color: white;
+    margin-top: 0px;
+    padding-left: 75px;
+    font-weight: bold;
+    margin: 0px;
+}
+#news-name {
+    color: #394d4e;
+    padding-top: 20px;
+    padding-left: 30px;
+    margin: 0px;
+}
+#body {
+    background-image: url(../images/bg.jpg);
+    height: 550px;
+    display: flex;
+}
+#left-side {
+    width: 65%;
+    padding-left: 64px;
+    border-right: dashed;
+}
+img {
+    width: 40%;
+    padding: 20px;
+}
+#preheder {
+    width: 886px;
+    height: inherit;
+    padding: 0px;
+    position: relative;
+    top: 4px;
+}
+#footer {
+    padding: 0px;
+    width: auto;
+}
+h3 {
+    margin: 0px;
+    color: #394d4e;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+#content-top1 {
+    height: 100px;
+    border: none;
+    outline: none;
+}
+#inputText {
+    border: dashed;
+    width: 125px;
+    margin-left: 5px;
+}
+form #sumbitForm {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #394d4e;
+}
+#listNewsTop5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+#listNewsTop5 a {
+    color: #394d4e;
+    padding-left: 10px;
+}
+#news-content {
+    border: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 50%;
+    outline: none;
+}
+#imgWriter{
+    width: 15px;
+    padding: 0px;
+}
+#writer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+#pager a {
+    background-color: burlywood;
+    padding: 2px;
+    color: darkcyan;
+    margin: 3px;
+    text-decoration: none;
+}
+#pager span {
+    background-color: antiquewhite;
+    padding: 2px;
+    color: darkcyan;
+    margin: 3px;
+    text-decoration: none;
+}
